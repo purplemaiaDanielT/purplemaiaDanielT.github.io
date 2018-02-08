@@ -5,20 +5,49 @@
         <title>Paw's Cat Cafe</title>
     </head>
     <body>
-        <img src="website_pictures/paws01.jpg" height="100" width="100" alt="&#9749">
-        <h1>Hello!</h1>
-        <p><em>Welcome</em> to Paw's <strong>Cat Cafe!</strong></p>
+        <style>
+            body{
+                padding:50px;
+            }
+            #section_title{
+                border: 5px solid white;
+                background-color: mistyrose;
+                padding: 5px;
+            }
+            .background{
+                background-image: url(website_pictures/paws_background_01.jpg);
+                padding: 50px;
+                border: 5px solid black;
+            }
+            .icon {
+                border-radius: 700px 700px;
+                border: 5px solid black;
+                padding: 5px;
+            }
+            .section_content{
+                border: 5px solid white;
+                background-color: aliceblue;
+                padding: 5px;
+            }
+        
+        </style>
+        <div class="background">
+        <img class="icon" src="website_pictures/paws02.jpg" height="160" width="160">
+        <h1 id="section_title">
+            <em>Welcome</em> to Paw's <strong>Cat Cafe</strong>
+        </h1>
         <br>
-        <h2>About us...</h2>
+        <h2 class="section_content">About us...</h2>
         <p>Our cafe started as an idea between two friends. Both likes cats; both likes to drink coffee; and so, both would like to drink coffee with cats. You are welcome to relax and enjoy all that we offer. And, if you meet that special cat you would like to adopt, we can help with that, as well.</p>
         <br>
         
-        <h1>Our motto...</h1>
+        <h1 class="section_content">Our motto...</h1>
         <ul>
-            <li>C - Cats are cool.</li>
-            <li>a - At Paw's, we are here for you and cats.</li>
-            <li>t - Tell your friends.</li>
-            <li>s - Share your love of cats and coffee&#9749;</li>
+            <li><em>C</em>ats are cool.</li>
+            <li><em>A</em>t Paw's, we are here for you and cats.</li>
+            <li><em>T</em>ell your friends.</li>
+            <li><em>S</em>hare your love of cats and coffee&#9749;</li>
         </ul>
+        </div>
     </body>
 </html>
